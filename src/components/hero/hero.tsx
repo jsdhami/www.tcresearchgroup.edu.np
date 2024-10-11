@@ -1,4 +1,8 @@
 import React from 'react'
+// react icons
+import { GiArchiveResearch } from "react-icons/gi";
+import { LiaToolsSolid } from 'react-icons/lia';
+import { FaUserGroup } from "react-icons/fa6";
 
 const hero = () => {
       return (
@@ -37,10 +41,10 @@ const hero = () => {
                                                 <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                                                       <div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-slate-950 dark:border-2 w-full mb-8 shadow-lg rounded-lg">
                                                             <div className="px-4 py-5 flex-auto">
-                                                                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                                                                        <i className="fas fa-award"></i>
+                                                                  <div className="text-black p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">                                                                        
+                                                                        <GiArchiveResearch />
                                                                   </div>
-                                                                  <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                                                                  <h6 className="text-xl font-semibold">Research</h6>
                                                                   <p className="mt-2 mb-4 text-black dark:text-white">
                                                                         Divide details about your product or agency work into parts.
                                                                         A paragraph describing a feature will be enough.
@@ -48,30 +52,32 @@ const hero = () => {
                                                             </div>
                                                       </div>
                                                 </div>
+
                                                 <div className="w-full md:w-4/12 px-4 text-center">
-                                                      <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                                                      <div className="relative flex flex-col min-w-0 break-words  dark:bg-slate-950 dark:border-2 bg-white w-full mb-8 shadow-lg rounded-lg">
                                                             <div className="px-4 py-5 flex-auto">
-                                                                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                                                                        <i className="fas fa-retweet"></i>
+                                                                  <div className="text-black p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                                                                        <LiaToolsSolid />
                                                                   </div>
-                                                                  <h6 className="text-xl font-semibold">Free Revisions</h6>
-                                                                  <p className="mt-2 mb-4 text-blueGray-500">
+                                                                  <h6 className="text-xl font-semibold">Innovation </h6>
+                                                                  <p className="mt-2 mb-4 text-black dark:text-white">
                                                                         Keep you user engaged by providing meaningful information.
                                                                         Remember that by this time, the user is curious.
                                                                   </p>
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <div className="pt-6 w-full md:w-4/12 px-4 text-center">
-                                                      <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                                                
+                                                 <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                                                      <div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-slate-950 dark:border-2 w-full mb-8 shadow-lg rounded-lg">
                                                             <div className="px-4 py-5 flex-auto">
-                                                                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-                                                                        <i className="fas fa-fingerprint"></i>
+                                                                <div className="text-black p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                                                                  <FaUserGroup />
                                                                   </div>
-                                                                  <h6 className="text-xl font-semibold">Verified Company</h6>
-                                                                  <p className="mt-2 mb-4 text-blueGray-500">
-                                                                        Write a few lines about each one. A paragraph describing a
-                                                                        feature will be enough. Keep you user engaged!
+                                                                  <h6 className="text-xl font-semibold">Collaboration</h6>
+                                                                  <p className="mt-2 mb-4 text-black dark:text-white">
+                                                                        Divide details about your product or agency work into parts.
+                                                                        A paragraph describing a feature will be enough.
                                                                   </p>
                                                             </div>
                                                       </div>
