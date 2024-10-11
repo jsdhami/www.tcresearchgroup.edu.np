@@ -37,7 +37,7 @@ const hero = () => {
                                     <div className="container mx-auto px-4">
                                           <div className="flex flex-wrap">
                                                 <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                                                      <div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-slate-950 dark:border-2 w-full mb-8 shadow-lg rounded-lg">
+                                                      <div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-slate-950 border border-solid border-black/[.08] dark:border-white/[.145] w-full mb-8 shadow-lg rounded-lg">
                                                             <div className="px-4 py-5 flex-auto">
                                                                   <div className="text-black p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">                                                                        
                                                                         <GiArchiveResearch />
@@ -51,7 +51,7 @@ const hero = () => {
                                                 </div>
 
                                                 <div className="w-full md:w-4/12 px-4 text-center">
-                                                      <div className="relative flex flex-col min-w-0 break-words  dark:bg-slate-950 dark:border-2 bg-white w-full mb-8 shadow-lg rounded-lg">
+                                                      <div className="relative flex flex-col min-w-0 break-words  dark:bg-slate-950 border border-solid border-black/[.08] dark:border-white/[.145] bg-white w-full mb-8 shadow-lg rounded-lg">
                                                             <div className="px-4 py-5 flex-auto">
                                                                   <div className="text-black p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                                                                         <LiaToolsSolid />
@@ -65,7 +65,7 @@ const hero = () => {
                                                 </div>
                                                 
                                                  <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                                                      <div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-slate-950 dark:border-2 w-full mb-8 shadow-lg rounded-lg">
+                                                      <div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-slate-950 border border-solid border-black/[.08] dark:border-white/[.145] w-full mb-8 shadow-lg rounded-lg">
                                                             <div className="px-4 py-5 flex-auto">
                                                                 <div className="text-black p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                                                                   <FaUserGroup />
