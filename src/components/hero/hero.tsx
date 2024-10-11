@@ -21,9 +21,7 @@ const hero = () => {
                                                             Tri-Chandra Research Group
                                                       </div>
                                                       <div className="mt-4 text-lg bg-slate-50  rounded-md p-4 dark:bg-slate-950 bg-opacity-40 dark:bg-opacity-40 text-black dark:text-white">
-                                                            This is a simple example of a Landing Page you can build using
-                                                            Notus JS. It features multiple CSS components based on the
-                                                            Tailwind CSS design system.
+                                                      Tri-Chandra Research Group advances science through research, innovation, and collaboration in physics, technology, and environmental sciences.
                                                       </div>
                                                 </div>
                                           </div>
@@ -46,8 +44,7 @@ const hero = () => {
                                                                   </div>
                                                                   <h6 className="text-xl font-semibold">Research</h6>
                                                                   <p className="mt-2 mb-4 text-black dark:text-white">
-                                                                        Divide details about your product or agency work into parts.
-                                                                        A paragraph describing a feature will be enough.
+                                                                  We conduct interdisciplinary research in plasma physics, quantum computing, and atmospheric sciences, advancing knowledge with practical applications.
                                                                   </p>
                                                             </div>
                                                       </div>
@@ -61,8 +58,7 @@ const hero = () => {
                                                                   </div>
                                                                   <h6 className="text-xl font-semibold">Innovation </h6>
                                                                   <p className="mt-2 mb-4 text-black dark:text-white">
-                                                                        Keep you user engaged by providing meaningful information.
-                                                                        Remember that by this time, the user is curious.
+                                                                  We drive innovation through cutting-edge technology and open-source projects, solving real-world challenges.
                                                                   </p>
                                                             </div>
                                                       </div>
@@ -76,8 +72,7 @@ const hero = () => {
                                                                   </div>
                                                                   <h6 className="text-xl font-semibold">Collaboration</h6>
                                                                   <p className="mt-2 mb-4 text-black dark:text-white">
-                                                                        Divide details about your product or agency work into parts.
-                                                                        A paragraph describing a feature will be enough.
+                                                                  Collaboration is key to our success, partnering with institutions and industries to foster knowledge exchange and breakthrough research.
                                                                   </p>
                                                             </div>
                                                       </div>
