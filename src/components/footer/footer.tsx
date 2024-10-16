@@ -75,7 +75,7 @@ const footer = () => {
               </div>
             </div>
           </div>
-          <hr className="my-6 border-blueGray-300"></hr>
+          <hr className="my-6 border border-solid border-black/[.08] dark:border-white/[.145]"></hr>
           <div className="flex flex-wrap items-center justify-around">
             <div className="text-center">
               <div className="text-sm text-blueGray-500 py-1">
