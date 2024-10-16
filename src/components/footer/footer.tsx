@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaWhatsapp, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa'
 
 const footer = () => {
   return (
@@ -16,12 +16,24 @@ const footer = () => {
                 Ghantaghar, Kathmandu, Nepal <br />
               </h5>
               <div className="mt-6 lg:mb-0 mb-6 flex gap-3">
-              <FaFacebook className='text-xl text-blue-600 hover:scale-95 h-6 w-6 ' />
-              <FaInstagram className='text-xl text-pink-600 hover:scale-95 h-6 w-6' />
-              <FaGithub className='text-xl text-dark-600 hover:scale-95 h-6 w-6' />
+              <Link href="https://www.facebook.com/TriChandraResearchGroup" target="_blank">
+                <FaFacebook className='text-xl text-blue-600 hover:scale-95 h-6 w-6' />
+              </Link>
+              {/* <Link href="https://www.instagram.com/tcresearchgroup" target="_blank">
+                <FaInstagram className='text-xl text-red-600 hover:scale-95 h-6 w-6' />
+              </Link> */}
+              <Link href="https://www.linkedin.com/company/tcresearchgroup" target="_blank">
               <FaLinkedin className='text-xl text-blue-600 hover:scale-95 h-6 w-6' />
+              </Link>
+              <Link href="https://www.youtube.com/@Tri-ChandraResearchGroup" target="_blank">
               <FaYoutube className='text-xl text-red-600 hover:scale-95 h-6 w-6' />
+              </Link>
+              <Link href="https://www.github.com/tcresearchgroup" target="_blank">
+              <FaGithub className='text-xl text-dark-600 hover:scale-95 h-6 w-6' />
+              </Link>
+              {/* <Link href="https://wa.me/9779841234567" target="_blank">
               <FaWhatsapp className='text-xl text-green-600 hover:scale-95 h-6 w-6' />
+              </Link> */}
               </div>
             </div>
             <div className="w-full md:w-6/12 px-4">
@@ -30,16 +42,16 @@ const footer = () => {
                   <span className="block uppercase text-blueGray-500 text-sm font-bold mb-2">Useful Links</span>
                   <ul className="list-unstyled">
                     <li>
-                      <a className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="/about">About Us</a>
+                      <Link className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="/about">About Us</Link>
                     </li>
                     <li>
-                      <a className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="/blog">Blog</a>
+                      <Link className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="/blog">Blog</Link>
                     </li>
                     <li>
-                      <a className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="https://www.github.com/tcresearchgroup">Github</a>
+                      <Link className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="https://www.github.com/tcresearchgroup">Github</Link>
                     </li>
                     <li>
-                      <a className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="https://triscan.tcresearchgroup.edu.np">TriScan</a>
+                      <Link className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="https://triscan.vercel.app">TriScan</Link>
                     </li>
                   </ul>
                 </div>
@@ -47,16 +59,16 @@ const footer = () => {
                   <span className="block uppercase text-blueGray-500 text-sm font-bold mb-2">Others</span>
                   <ul className="list-unstyled">
                     <li>
-                      <a className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="https://github.com/tcresearchgroup">MIT License</a>
+                      <Link className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="https://github.com/tcresearchgroup">MIT License</Link>
                     </li>
                     <li>
-                      <a className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="#">Terms &amp; Conditions</a>
+                      <Link className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="#">Terms &amp; Conditions</Link>
                     </li>
                     <li>
-                      <a className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="#">Privacy Policy</a>
+                      <Link className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="#">Privacy Policy</Link>
                     </li>
                     <li>
-                      <a className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="mailto:trichandraresearchgroup@gmail.com">Contact Us</a>
+                      <Link className="text-blueGray-600 hover:text-blueGray-800 font-normal block pb-2 text-sm" href="mailto:trichandraresearchgroup@gmail.com">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -64,14 +76,16 @@ const footer = () => {
             </div>
           </div>
           <hr className="my-6 border-blueGray-300"></hr>
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div className="flex flex-wrap items-center justify-around">
+            <div className="text-center">
               <div className="text-sm text-blueGray-500 py-1">
                 Copyright © <span id="get-current-year">{new Date().getFullYear()}</span>
                  <Link href="https://www.facebook.com/TriChandraResearchGroup" className="text-blueGray-500 font-semibold hover:text-gray-600 dark:hover:text-blue-300" target="_blank"> Tri-Chandra Research Group
                  </Link>
-
               </div>
+            </div>
+            <div className='text-sm text-blueGray-500 py-1'>
+                Developed by <Link href="https://www.github.com/jsdhami" className="text-blueGray-500 font-semibold hover:text-gray-600 dark:hover:text-blue-300" target="_blank"> Janak Singh Dhami</Link>
             </div>
           </div>
         </div>
