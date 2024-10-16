@@ -76,7 +76,7 @@ const footer = () => {
             </div>
           </div>
           <hr className="my-6 border border-solid border-black/[.08] dark:border-white/[.145]"></hr>
-          <div className="flex flex-wrap items-center justify-around">
+          <div className="flex flex-wrap items-center justify-between">
             <div className="text-center">
               <div className="text-sm text-blueGray-500 py-1">
                 Copyright © <span id="get-current-year">{new Date().getFullYear()}</span>

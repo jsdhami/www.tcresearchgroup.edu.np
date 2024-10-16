@@ -17,6 +17,7 @@ const header = () => {
             <Link href="/about">About</Link>
             <Link href="/events">Events</Link>
             <Link href="/team">Team</Link>
+            <Link href="/contact">Contact</Link>
           </nav>
           <ModeToggle />
         </div>
