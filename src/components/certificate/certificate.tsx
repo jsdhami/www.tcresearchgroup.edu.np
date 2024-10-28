@@ -24,21 +24,21 @@ export default function Certificate() {
      <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
-          placeholder="Certificate Code"
+          placeholder="Certificate Code Eg. TC024LaTeX01"
           value={form.code}
           onChange={(e) => setForm({ ...form, code: e.target.value })}
           className="w-full p-2 border rounded"
         />
         <input
           type="email"
-          placeholder="Email"
+          placeholder="Your Email Eg. example@gmail.com"
           value={form.email}
           onChange={(e) => setForm({ ...form, email: e.target.value })}
           className="w-full p-2 border rounded"
         />
         <input
           type="tel"
-          placeholder="Mobile Number"
+          placeholder="Mobile Number Eg. 9868888888"
           value={form.mobile}
           onChange={(e) => setForm({ ...form, mobile: e.target.value })}
           className="w-full p-2 border rounded"
@@ -50,7 +50,7 @@ export default function Certificate() {
      
       {certificateData && (
         <div className="mt-6 text-center">
-          <Image height={500} width={750} src={certificateData} alt="Certificate" className="w-full rounded-md" />
+          <Image height={500} width={750} quality={100} src={certificateData} alt="Certificate" className="w-full rounded-md" />
           <Link href={certificateData} download className="block bg-blue-500 p-2 mt-4 rounded-full text-white">
             Download
           </Link>
