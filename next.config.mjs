@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    // image url
+    images: {
+        domains: ['tcresearchgroup.vercel.app'],
+    },
+};
 
 export default nextConfig;

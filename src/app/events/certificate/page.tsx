@@ -4,8 +4,8 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 z-1">
-        <h1 className="text-3xl font-bold">Get Your Certificate</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen py-3 z-1">
+        <h1 className="text-2xl font-bold pt-4">Get Your Certificate</h1>
         <Certificate/>
     </div>
     </>

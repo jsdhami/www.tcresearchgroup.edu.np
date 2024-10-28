@@ -1,5 +1,6 @@
 "use client"
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 import { useState } from 'react';
 
@@ -19,8 +20,8 @@ export default function Certificate() {
   };
 
   return (
-    <div className="p-6 max-w-lg mx-auto">
-      <form onSubmit={handleSubmit} className="space-y-4">
+    <div className="flex p-6 flex-col justify-center items-center ">
+     <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
           placeholder="Certificate Code"
@@ -46,12 +47,13 @@ export default function Certificate() {
           Submit
         </button>
       </form>
+     
       {certificateData && (
-        <div className="mt-6">
-          <Image height={500} width={500} src={certificateData} alt="Certificate" className="w-full" />
-          <a href={certificateData} download className="block mt-4 text-blue-500 underline">
-            Download Certificate
-          </a>
+        <div className="mt-6 text-center">
+          <Image height={500} width={750} src={certificateData} alt="Certificate" className="w-full rounded-md" />
+          <Link href={certificateData} download className="block bg-blue-500 p-2 mt-4 rounded-full text-white">
+            Download
+          </Link>
         </div>
       )}
     </div>
