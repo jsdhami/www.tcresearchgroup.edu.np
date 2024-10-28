@@ -10,6 +10,12 @@
       "email": "example2@example.com",
       "mobile": "0987654321",
       "imageURL": "https://tcresearchgroup.vercel.app/logo.png"
+    },
+    {
+      "code": "CERT789",
+      "email": "info@gmail.com",
+      "mobile": "1234567890",
+      "imageURL": "https://tcresearchgroup.vercel.app/tc.jpg"
     }
   ]
   
