@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaFacebook, FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp, FaYoutube } from 'react-icons/fa'
 
 const footer = () => {
   return (
@@ -9,8 +9,8 @@ const footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-left lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-2xl font-bold text-blueGray-700">Tri-Chandra Research Group</h4>
-              <h5 className="text-md mt-0 mb-2 text-blueGray-600">
+              <h4 className="text-2xl font-semibold text-blueGray-700">Tri-Chandra Research Group</h4>
+              <h5 className="text-sm mt-0 mb-2 text-blueGray-600">
                <p className='text-stone-950 dark:text-gray-200'> Innovate, Learn, Share. Join us in exploring new horizons through collaborative research. </p> 
                 Tri-Chandra Multiple Campus, <br />
                 Ghantaghar, Kathmandu, Nepal <br />
@@ -31,9 +31,9 @@ const footer = () => {
               <Link href="https://www.github.com/tcresearchgroup" target="_blank">
               <FaGithub className='text-xl text-dark-600 hover:scale-95 h-6 w-6' />
               </Link>
-              {/* <Link href="https://wa.me/9779841234567" target="_blank">
+              <Link href="https://whatsapp.com/channel/0029VafGv4e5K3zbbFNfl42s" target="_blank">
               <FaWhatsapp className='text-xl text-green-600 hover:scale-95 h-6 w-6' />
-              </Link> */}
+              </Link>
               </div>
             </div>
             <div className="w-full md:w-6/12 px-4">
@@ -76,7 +76,7 @@ const footer = () => {
             </div>
           </div>
           <hr className="my-6 border border-solid border-black/[.08] dark:border-white/[.145]"></hr>
-          <div className="flex flex-wrap items-center justify-between">
+          <div className="flex flex-wrap text-sm items-center justify-between">
             <div className="text-center">
               <div className="text-sm text-blueGray-500 py-1">
                 Copyright © <span id="get-current-year">{new Date().getFullYear()}</span>

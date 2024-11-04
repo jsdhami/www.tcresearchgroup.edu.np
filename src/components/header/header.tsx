@@ -12,7 +12,7 @@ const header = () => {
           <Link href="/">
             <Image src="/logo.png" width={40} height={40} alt="Logo" className="rounded-md" />
           </Link>
-          <nav className="ml-auto mx-3 text-md font-medium space-x-4 md:space-x-6 ">
+          <nav className="ml-auto mx-3 text-sm font-medium space-x-4 md:space-x-6 ">
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/events">Events</Link>
