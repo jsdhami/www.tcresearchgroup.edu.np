@@ -3,7 +3,7 @@ import React from 'react'
 const playlist = () => {
      return (
           <>
-               <div className="flex relative flex-wrap border border-black/[.2] dark:border-white/[.2] rounded-md justify-around gap-2 items-center p-8 m-2 mx-4">
+               <div className="flex relative flex-wrap border border-black/[.2] dark:border-white/[.2] rounded-md justify-center gap-2 items-center p-8 m-2 mx-4">
                     <div className="flex rounded-md hover:shadow-md dark:hover:shadow-gray-300 dark:hover:shadow-sm border border-solid border-black/[.2] dark:border-white/[.2]  p-2">
                          <iframe className='rounded-md aspect-video' src="https://www.youtube.com/embed/NxzADuT10fE" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
