@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-gray-100 dark:bg-slate-950 bg-gradient-to-t from-gray-200 to-gray-100 dark:from-slate-900 dark:to-slate-950 fixed z-50 w-full py-5 px-8 shadow-md transition-all duration-300">
+      <header className="bg-gray-100 dark:bg-slate-950 bg-gradient-to-t from-gray-200 to-gray-100 dark:from-slate-900 dark:to-slate-950 fixed z-50 w-full py-5 px-8 transition-all duration-50">
         <div className="flex items-center justify-between">
           <Link href="/">
             <Image src="/logo.png" width={40} height={40} alt="Logo" className="rounded-md hover:opacity-80 transition-opacity duration-300" />
@@ -35,7 +35,7 @@ const Header = () => {
           </div>
         </div>
         {isMobileMenuOpen && (
-          <nav className="md:hidden mt-4 space-y-2 text-sm font-medium bg-gray-100 dark:bg-slate-950 p-4 rounded-md shadow-lg transition-all duration-300">
+          <nav className="md:hidden mt-4 space-y-2 text-sm font-medium  p-4 rounded-md shadow-lg transition-all duration-50">
             <Link href="/" onClick={toggleMobileMenu} className="block hover:text-blue-500 transition-colors duration-150">Home</Link>
             <Link href="/about" onClick={toggleMobileMenu} className="block hover:text-blue-500 transition-colors duration-150">About</Link>
             <Link href="/events" onClick={toggleMobileMenu} className="block hover:text-blue-500 transition-colors duration-150">Events</Link>
