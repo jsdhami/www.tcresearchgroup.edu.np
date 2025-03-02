@@ -35,7 +35,7 @@ const Header = () => {
           </div>
         </div>
         {isMobileMenuOpen && (
-          <nav className="md:hidden mt-4 space-y-2 text-sm font-medium  p-4 rounded-md shadow-lg transition-all duration-50">
+          <nav className="md:hidden mt-4 space-y-2 text-sm font-medium bg-transparent  p-4 rounded-md shadow-lg transition-all duration-50">
             <Link href="/" onClick={toggleMobileMenu} className="block hover:text-blue-500 transition-colors duration-150">Home</Link>
             <Link href="/about" onClick={toggleMobileMenu} className="block hover:text-blue-500 transition-colors duration-150">About</Link>
             <Link href="/events" onClick={toggleMobileMenu} className="block hover:text-blue-500 transition-colors duration-150">Events</Link>
