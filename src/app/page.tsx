@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "@/components/hero/hero";
-import Image from "next/image";
 import Link from "next/link";
 import Playlist from "@/components/playlist/playlist";
 
@@ -15,13 +14,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
+          
             Know More
           </Link>
           <Link
